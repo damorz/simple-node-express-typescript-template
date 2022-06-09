@@ -15,7 +15,7 @@
     "build": "rm -rf dist && npm run tsc",
     "start": "node ./dist/src/index.js",
     "dev": "nodemon --watch src --ext ts --exec \"ts-node src/index.ts\"",
-    "lint": "eslint '{src,test}/**/*.ts'"
+    "lint": "eslint \"src/**/*.ts\""
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
